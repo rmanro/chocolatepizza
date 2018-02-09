@@ -1,0 +1,26 @@
+*{
+    border: 1pt solid red;
+}
+h1{
+    width:fit-content;
+    font-family: 'Lobster', cursive;
+}
+h4{
+    width:fit-content;
+}
+h2{
+font-family: 'Anton', sans-serif;
+width: fit-content;
+}
+
+p{
+    font-family: 'Barlow Condensed', sans-serif;
+    color:rgba(0, 0, 0, 0.842);
+    width:40%;
+}
+
+body{
+background-color:rgba(0, 0, 0, 0.048);
+
+}
+
