@@ -1,15 +1,17 @@
-*{
-    border: 1pt solid red;
-}
+
 h1{
     width:fit-content;
     font-family: 'Lobster', cursive;
 }
+
+}
 h4{
     width:fit-content;
+
 }
 h2{
 font-family: 'Anton', sans-serif;
+font-size: 200%;
 width: fit-content;
 }
 
@@ -31,10 +33,10 @@ width: 960px;
 }
 
 #del {
-    top: 10px;
+    top: 2px;
     left: 60px;
     margin: 0px;
-    font-size: 200%;
+    font-size: 250%;
 }
 
 #bestfood {
@@ -46,8 +48,10 @@ width: 960px;
 #logos {
     width: fit-content;
     position: relative;
+    top: 25%;
     left: 74%;
     border: none; 
+
 }
 
 #print {
@@ -60,4 +64,47 @@ width: 960px;
     position: absolute;
     left: 900px;
     top: 150px;
+}
+
+#choco {
+    width: 100%;
+
+}
+.bodyCopy{
+    width: 100%;
+    hyphens: auto;
+    text-indent: 20px;
+    line-height: 1.7em;
+}
+
+form{
+    font-family: 'Patrick Hand', cursive;
+    color:rgb(56, 54, 54);
+    background-image: url("img/list-bg.png");
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    text-align: left;
+}
+input[type="checkbox"]{
+    margin: 1em;
+    border: 10px;
+    display: block;
+
+}
+label{
+    float: right;
+}
+
+
+#left{
+    flex: left;
+    border: 2em;
+    padding: 2em;
+}
+    
+#right{
+    flex: right;
+    border: 2em;
+    padding: 2em;
 }
