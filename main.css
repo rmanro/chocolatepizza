@@ -21,6 +21,43 @@ p{
 
 body{
 background-color:rgba(0, 0, 0, 0.048);
+width: 960px;
 
 }
 
+#delicious h1, h4 {
+    position: absolute;
+
+}
+
+#del {
+    top: 10px;
+    left: 60px;
+    margin: 0px;
+    font-size: 200%;
+}
+
+#bestfood {
+    top: 35px;
+    font-size: 50%;
+    left: 60px;
+}
+
+#logos {
+    width: fit-content;
+    position: relative;
+    left: 74%;
+    border: none; 
+}
+
+#print {
+    position: absolute;
+    left: 900px;
+    top: 150px;
+}
+
+#printtext {
+    position: absolute;
+    left: 900px;
+    top: 150px;
+}
