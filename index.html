@@ -3,7 +3,7 @@
     <head>
         <title>Chocolate Pizza</title>
         <link rel="stylesheet" type="text/css" href="main.css">
-        <link href="https://fonts.googleapis.com/css?family=Anton|Barlow|Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton|Barlow+Condensed|Lobster|Patrick+Hand" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -26,18 +26,19 @@
         <article>
             <header>
                 <h2>Chocolate Pizza</h2>
-                <h4>Posted on 15 Dec 2013 / Desserts</h4>
+                <h4 id = "posted" >Posted on 15 Dec 2013 / Desserts</h4>
                     <img src="img/print-icon.png" alt="print icon" id = "print">
                     <p id = "printtext">PRINT</p>
                 
             </header>
             <section>
-                <img src="img/choco-pizza.png" alt="chocolate cake">
-                <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown suger and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium hear, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
-                <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
-                <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e, let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
+                <img id ="choco" src="img/choco-pizza.png" alt="chocolate cake">
+                <p class = "bodyCopy">For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown suger and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium hear, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+                <p class = "bodyCopy">Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
+                <p class = "bodyCopy">Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e, let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
                 <aside>
                     <form>
+                        <div id = "left">
                         <input type="checkbox" name="ingredients" value="milk" id="milk">
                         <label for="milk">1 1/2 cups milk</label>
 
@@ -55,7 +56,8 @@
 
                         <input type="checkbox" name="ingredients" value="water" id="water">
                         <label for="water">2-4 tbsp water</label>
-
+                    </div>
+                    <div id = "right">
                         <input type="checkbox" name="ingredients" value="cream" id="cream">
                         <label for="cream">1 1/2 cups heavy cream</label>
 
@@ -73,6 +75,7 @@
 
                         <input type="checkbox" name="ingredients" value="pecans" id="pecans">
                         <label for="pecans">1 cup honey roasted pecans, roughly chopped</label>
+                    </div>
                     </form>
                 </aside>
             </section>
